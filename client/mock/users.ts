@@ -1,0 +1,43 @@
+export const mockUsers = [
+  {
+    id: 1,
+    name: 'Alice',
+    age: 23,
+    location: '上海',
+    avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+    photos: ['https://randomuser.me/api/portraits/women/1.jpg', 'https://randomuser.me/api/portraits/men/2.jpg'],
+    distance: 2.3,
+    onlineStatus: "2小时前在线",
+  },
+  {
+    id: 2,
+    name: 'Bob',
+    age: 28,
+    location: '北京',
+    avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
+    photos: ['https://randomuser.me/api/portraits/women/1.jpg'],
+    distance: 5.1,
+    onlineStatus: "",
+  },
+  {
+    id: 3,
+    name: 'Cathy',
+    age: 25,
+    location: '广州',
+    avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
+    photos: ['https://randomuser.me/api/portraits/women/1.jpg'],
+    distance: 1.2,
+    onlineStatus: "1小时前在线",
+  },
+  {
+    id: 4,
+    name: 'David',
+    age: 30,
+    location: '深圳',
+    avatar: 'https://randomuser.me/api/portraits/men/4.jpg',
+    photos: ['https://randomuser.me/api/portraits/women/1.jpg'],
+    distance: 7.8,
+    onlineStatus: "",
+  },
+  // 可以继续扩充更多
+];

@@ -1,0 +1,17 @@
+mysql:
+  dsn: "worldcity:worldcity@tcp(localhost:3306)/worldCity?charset=utf8mb4&parseTime=True&loc=Local"
+
+redis:
+  addr: "localhost:6379"
+  password: ""
+  db: 0
+
+oss:
+  endpoint: "your-oss-endpoint"
+  access_key: "your-access-key"
+  secret_key: "your-secret-key"
+  bucket: "your-bucket-name"
+
+yunxin:
+  app_key: "your-yunxin-appkey"
+  app_secret: "your-yunxin-appsecret"
